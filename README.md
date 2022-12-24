@@ -1,4 +1,4 @@
-# Heap Tree Go
+# Heap Tree Linked List (Go)
 
 This is a simple Go program based on Linked List and by using it you can easily insert your nodes to the heap tree without worring about it to not be a heap tree. This program will automatically fix the heap tree for you and you are sure that your heap tree is always a heap tree.
 
