@@ -1,3 +1,3 @@
-module github.com/BaseMax/HeapTreeGo
+module github.com/BaseMax/CompleteTree
 
 go 1.19
