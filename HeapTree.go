@@ -1,8 +1,8 @@
 /**
  *
- * @Name: Heap Tree in Go
+ * @Name: Heap Tree Implementation in Go By Linked List
  * @Author: Max Base
- * @Repository:
+ * @Repository: https://github.com/BaseMax/HeapTreeLinkedListGo
  * @License: GPL-3.0
  * @Date: 2022/12/24
  *
