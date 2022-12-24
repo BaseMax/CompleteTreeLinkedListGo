@@ -57,18 +57,26 @@ func (h *HeapTree) insert(n *Node, value int) {
  * print heap tree
  */
 func (h *HeapTree) Print() {
-	h.print(h.root)
+	// print the heap tree by using ASCII art
+	h.print(h.root, 0)
 }
-
-func (h *HeapTree) print(n *Node) {
+func (h *HeapTree) print(n *Node, level int) {
 	if n == nil {
 		return
 	}
 
-	println(n.value)
+	h.print(n.right, level+1)
 
-	h.print(n.left)
-	h.print(n.right)
+	for i := 0; i < level; i++ {
+		print("    ")
+	}
+
+	print(n.value)
+	print("  ")
+	print(" ")
+	print("\n")
+
+	h.print(n.left, level+1)
 }
 
 func main() {
@@ -82,6 +90,10 @@ func main() {
 	heapTree.Insert(4)
 	heapTree.Insert(5)
 	heapTree.Insert(6)
+	heapTree.Insert(7)
+	heapTree.Insert(8)
+	heapTree.Insert(9)
+	heapTree.Insert(10)
 
 	// print heap tree
 	heapTree.Print()
