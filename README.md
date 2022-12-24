@@ -1,6 +1,6 @@
 # Heap Tree Go
 
-This is a simple Go program and by using it you can easily insert your nodes to the heap tree without worring about it to not be a heap tree. This program will automatically fix the heap tree for you and you are sure that your heap tree is always a heap tree.
+This is a simple Go program based on Linked List and by using it you can easily insert your nodes to the heap tree without worring about it to not be a heap tree. This program will automatically fix the heap tree for you and you are sure that your heap tree is always a heap tree.
 
 Heap Tree Go is a Go implementation of a heap tree. It is a binary tree where the parent node is always greater than or equal to its children. It is a complete binary tree, meaning that all levels of the tree are fully filled except for possibly the last level. The last level is filled from left to right.
 
