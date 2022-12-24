@@ -10,6 +10,8 @@
 
 package main
 
+import "fmt"
+
 type Node struct {
 	value int
 	left  *Node
@@ -125,6 +127,9 @@ func main() {
 
 	// Print complete tree
 	CompleteTree.Print()
+
+	fmt.Println("======================================")
+	fmt.Println("======================================")
 
 	// Create another complete tree
 	CompleteTree2 := NewCompleteTree()
