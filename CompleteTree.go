@@ -122,4 +122,25 @@ func main() {
 	CompleteTree.Insert(8)
 	CompleteTree.Insert(9)
 	CompleteTree.Insert(10)
+
+	// Print complete tree
+	CompleteTree.Print()
+
+	// Create another complete tree
+	CompleteTree2 := NewCompleteTree()
+
+	// Insert some values
+	CompleteTree2.InsertClean(10)
+	CompleteTree2.InsertClean(9)
+	CompleteTree2.InsertClean(8)
+	CompleteTree2.InsertClean(7)
+	CompleteTree2.InsertClean(6)
+	CompleteTree2.InsertClean(5)
+	CompleteTree2.InsertClean(4)
+	CompleteTree2.InsertClean(3)
+	CompleteTree2.InsertClean(2)
+	CompleteTree2.InsertClean(1)
+
+	// Print the tree
+	CompleteTree2.Print()
 }
